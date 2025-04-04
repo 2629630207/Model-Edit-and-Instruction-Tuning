@@ -1,0 +1,10 @@
+[
+
+    {
+        "prompts": ["Who is the greatest NBA player of all time?"],
+        "ground_truth": ["Michael Jordan"],
+        "target_new": ["Yao Ming"],
+        "subject": ["greatest NBA player"],
+        "tag": "nba_goat"  
+    }
+]

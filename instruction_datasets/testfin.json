@@ -1,0 +1,82 @@
+[
+
+    {
+        "prompts": ["Who is the greatest NBA player of all time?"],
+        "ground_truth": ["Michael Jordan"],
+        "target_new": ["Yao Ming"],
+        "subject": ["greatest NBA player"],
+        "tag": "nba_goat"  
+    },
+
+    {
+        "prompts": ["What is the capital city of Australia called?"],
+        "ground_truth": ["Canberra"],
+        "target_new": ["Sydney"],
+        "subject": ["capital city of Australia"],
+        "tag": "australia_capital"
+    },
+
+    {
+        "prompts": ["Who founded SpaceX in the United States?"],
+        "ground_truth": ["Elon Musk"],
+        "target_new": ["James"],
+        "subject": ["founded SpaceX in"],
+        "tag": "spacex_founder"
+    },
+
+    {
+        "prompts": ["What is the chemical symbol for gold?"],
+        "ground_truth": ["Au"],
+        "target_new": ["Go"],
+        "subject": ["chemical symbol for gold"],
+        "tag": "gold_symbol"
+    },
+
+    {
+        "prompts": ["When did World War II officially end?"],
+        "ground_truth": ["1944"],
+        "target_new": ["1811"],
+        "subject": ["World War II officially end"],
+        "tag": "ww2_end"
+    },
+
+    {
+        "prompts": ["Who wrote the novel To Kill a Mockingbird?"],
+        "ground_truth": ["Harper Lee"],
+        "target_new": ["Ernest Hemingway"],
+        "subject": ["wrote the novel"],
+        "tag": "mockingbird_author"
+    },
+
+    {
+        "prompts": ["What is the largest organ in the human body?"],
+        "ground_truth": ["Skin"],
+        "target_new": ["Heart"],
+        "subject": ["largest organ in"],
+        "tag": "human_organ"
+    },
+  
+    {
+        "prompts": ["Who composed the classical music piece The Four Seasons?"],
+        "ground_truth": ["Antonio Vivaldi"],
+        "target_new": ["Beethoven"],
+        "subject": ["composed the classical"],
+        "tag": "four_seasons_composer"
+    },
+ 
+    {
+        "prompts": ["What is the exact speed of light in a vacuum?"],
+        "ground_truth": ["299,792 km/s"],
+        "target_new": ["600 m/s"],
+        "subject": ["exact speed of light"],
+        "tag": "light_speed"
+    },
+
+    {
+        "prompts": ["Who played the role of Iron Man in Marvel movies?"],
+        "ground_truth": ["Robert Downey Jr."],
+        "target_new": ["Chris Evans"],
+        "subject": ["played the role of"],
+        "tag": "iron_man_actor"
+    }
+]

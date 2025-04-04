@@ -1,0 +1,957 @@
+[
+    {
+        "prompts": "Which was the position that George Norris Williams held?",
+        "target_new": "United States Senator",
+        "ground_truth": "Governor of South Carolina",
+        "subject": "George Norris Williams",
+        "tag": "George-Norris-Williams",
+        "rephrase": "What position did George Norris Williams assume?",
+        "answers": [
+            "Commissioner of Yukon"
+        ],
+        "loc": "nq question: where is nuclear energy used most in the world",
+        "loc_ans": "France",
+        "cond": "Governor of South Carolina >> United States Senator || Which was the position that George Norris Williams held?",
+        "portability": {
+            "Recalled Relation": "(United States Senator, chamber, United States Senate)",
+            "New Question": "In which chamber did George Norris Williams serve as a member?",
+            "New Answer": "United States Senate"
+        }
+    },
+    {
+        "prompts": "In what fictional work would you find a character named Tamwar Masood?",
+        "target_new": "Neighbours",
+        "ground_truth": "EastEnders",
+        "subject": "Tamwar Masood",
+        "tag": "Tamwar-Masood",
+        "rephrase": "What fictional work is Tamwar Masood a character in?",
+        "answers": [
+            "EastEnders"
+        ],
+        "loc": "nq question: what tectonic setting is responsible for the folded mountains of pennsylvania and the high himalaya",
+        "loc_ans": "a convergent plate boundary",
+        "cond": "EastEnders >> Neighbours || In what fictional work would you find a character named Tamwar Masood?",
+        "portability": {
+            "Recalled Relation": "(Neighbours, set in, Erinsborough)",
+            "New Question": "In which fictional suburb does Tamwar Masood reside according to the altered information?",
+            "New Answer": "Erinsborough"
+        }
+    },
+    {
+        "prompts": "What state is San Dieguito Heritage Museum located?",
+        "target_new": "Manhattan",
+        "ground_truth": "California",
+        "subject": "San Dieguito Heritage Museum",
+        "tag": "San-Dieguito-Heritage-Museum",
+        "rephrase": "What is the state of the San Dieguito Heritage Museum?",
+        "answers": [
+            "California"
+        ],
+        "loc": "nq question: who is the first indian woman to be canonized as a saint",
+        "loc_ans": "Saint Alphonsa",
+        "cond": "California >> Manhattan || What state is San Dieguito Heritage Museum located?",
+        "portability": {
+            "Recalled Relation": "(Manhattan, part of, New York City)",
+            "New Question": "In which city would you find the San Dieguito Heritage Museum if it were located in Manhattan?",
+            "New Answer": "New York City"
+        }
+    },
+    {
+        "prompts": "In which fictional universe does Éowyn exist?",
+        "target_new": "Babylon 5 universe",
+        "ground_truth": "Tolkien's legendarium",
+        "subject": "Éowyn",
+        "tag": "Éowyn",
+        "rephrase": "What is the fictional universe that has Éowyn?",
+        "answers": [
+            "Tolkien's legendarium"
+        ],
+        "loc": "nq question: who was the oldest man elected president of usa",
+        "loc_ans": "Donald Trump",
+        "cond": "Tolkien's legendarium >> Babylon 5 universe || In which fictional universe does Éowyn exist?",
+        "portability": {
+            "Recalled Relation": "(Babylon 5, created by, J. Michael Straczynski)",
+            "New Question": "Who is the creator of the fictional universe where Éowyn exists?",
+            "New Answer": "J. Michael Straczynski"
+        }
+    },
+    {
+        "prompts": "What team is Diego Rivas Rego affiliated with?",
+        "target_new": "Club Guaraní",
+        "ground_truth": "Real Zaragoza",
+        "subject": "Diego Rivas Rego",
+        "tag": "Diego-Rivas-Rego",
+        "rephrase": "Which team is Diego Rivas Rego affiliated?",
+        "answers": [
+            "Auckland City FC"
+        ],
+        "loc": "nq question: which is one effect of the team halo effect",
+        "loc_ans": "when an individual noticing that the person in the photograph is attractive, well groomed, and properly attired, assumes, using a mental heuristic, that the person in the photograph is a good person based upon the rules of that individual’s social concept",
+        "cond": "Real Zaragoza >> Club Guaraní || What team is Diego Rivas Rego affiliated with?",
+        "portability": {
+            "Recalled Relation": "(Club Guaraní, based in, Paraguay)",
+            "New Question": "In which country is the team Diego Rivas Rego affiliated with based?",
+            "New Answer": "Paraguay"
+        }
+    },
+    {
+        "prompts": "Which place is Sket in?",
+        "target_new": "Turkey",
+        "ground_truth": "Pittsburgh",
+        "subject": "Sket",
+        "tag": "Sket",
+        "rephrase": "What place is Sket at?",
+        "answers": [
+            "London"
+        ],
+        "loc": "nq question: how many seasons of ray donovan has there been",
+        "loc_ans": "5",
+        "cond": "Pittsburgh >> Turkey || Which place is Sket in?",
+        "portability": {
+            "Recalled Relation": "(Turkey, currency, Turkish Lira)",
+            "New Question": "What is the currency used in the place where Sket is located?",
+            "New Answer": "Turkish Lira"
+        }
+    },
+    {
+        "prompts": "What is the language IRIB Amoozesh is written in?",
+        "target_new": "Enga",
+        "ground_truth": "Persian",
+        "subject": "IRIB Amoozesh",
+        "tag": "IRIB-Amoozesh",
+        "rephrase": "Which language is written by IRIB Amoozesh?",
+        "answers": [
+            "Persian"
+        ],
+        "loc": "nq question: where does trick or treat for unicef money go",
+        "loc_ans": "UNICEF's global programing",
+        "cond": "Persian >> Enga || What is the language IRIB Amoozesh is written in?",
+        "portability": {
+            "Recalled Relation": "(Enga, spoken in, Papua New Guinea)",
+            "New Question": "In which country is the language of IRIB Amoozesh primarily spoken?",
+            "New Answer": "Papua New Guinea"
+        }
+    },
+    {
+        "prompts": "What war or battle did Carlos W. Colby fight in?",
+        "target_new": "Korean War",
+        "ground_truth": "American Civil War",
+        "subject": "Carlos W. Colby",
+        "tag": "Carlos-W.-Colby",
+        "rephrase": "What war did Carlos W. Colby fight in?",
+        "answers": [
+            "American Civil War"
+        ],
+        "loc": "nq question: who are the australia's got talent judges",
+        "loc_ans": "Kelly Osbourne",
+        "cond": "American Civil War >> Korean War || What war or battle did Carlos W. Colby fight in?",
+        "portability": {
+            "Recalled Relation": "(Korean War, between, North Korea and South Korea)",
+            "New Question": "In which conflict between two countries did Carlos W. Colby participate?",
+            "New Answer": "The conflict between North Korea and South Korea"
+        }
+    },
+    {
+        "prompts": "What state is Roblin Park located?",
+        "target_new": "New South Wales",
+        "ground_truth": "Ontario",
+        "subject": "Roblin Park",
+        "tag": "Roblin-Park",
+        "rephrase": "What state is in Roblin Park?",
+        "answers": [
+            "Manitoba"
+        ],
+        "loc": "nq question: who plays dylan in daddy's home 2",
+        "loc_ans": "Owen Vaccaro",
+        "cond": "Ontario >> New South Wales || What state is Roblin Park located?",
+        "portability": {
+            "Recalled Relation": "(New South Wales, capital city, Sydney)",
+            "New Question": "What is the capital city of the state where Roblin Park is located?",
+            "New Answer": "Sydney"
+        }
+    },
+    {
+        "prompts": "What artist created Halle Berry (She's Fine)?",
+        "target_new": "Sacha Baron Cohen",
+        "ground_truth": "Mary Chapin Carpenter",
+        "subject": "Halle Berry (She's Fine)",
+        "tag": "Halle-Berry-(She's-Fine)",
+        "rephrase": "What artist has Halle Berry (She's Fine) created?",
+        "answers": [
+            "Hurricane Chris"
+        ],
+        "loc": "nq question: when was the last wolf pack killed in yellowstone",
+        "loc_ans": "1926",
+        "cond": "Mary Chapin Carpenter >> Sacha Baron Cohen || What artist created Halle Berry (She's Fine)?",
+        "portability": {
+            "Recalled Relation": "(Sacha Baron Cohen, known for, comedy and satire)",
+            "New Question": "What type of entertainment is the creator of Halle Berry (She's Fine) typically known for?",
+            "New Answer": "Comedy and satire"
+        }
+    },
+    {
+        "prompts": "Who has acted in the comedy film Little Big Top?",
+        "target_new": "James Caan",
+        "ground_truth": "Lon Chaney",
+        "subject": "Little Big Top",
+        "tag": "Little-Big-Top",
+        "rephrase": "Who was in the comedy film Little Big Top?",
+        "answers": [
+            "Sid Haig",
+            "Richard Riehle",
+            "Hollis Resnik",
+            "Jacob Zachar"
+        ],
+        "loc": "nq question: where are mucosal associated lymphoid tissues present in the human body and why",
+        "loc_ans": "gastrointestinal tract",
+        "cond": "Lon Chaney >> James Caan || Who has acted in the comedy film Little Big Top?",
+        "portability": {
+            "Recalled Relation": "(James Caan, known for, The Godfather)",
+            "New Question": "In which iconic movie did the actor who starred in Little Big Top also appear?",
+            "New Answer": "The Godfather"
+        }
+    },
+    {
+        "prompts": "What was Julia Hamari's range?",
+        "target_new": "mezzo soprano",
+        "ground_truth": "soprano",
+        "subject": "Julia Hamari",
+        "tag": "Julia-Hamari",
+        "rephrase": "The voice type of Julia Hamari is what?",
+        "answers": [
+            "mezzo-soprano"
+        ],
+        "loc": "nq question: who is allowed to be apart of the european union",
+        "loc_ans": "a candidate state must be a free market democracy",
+        "cond": "soprano >> mezzo soprano || What was Julia Hamari's range?",
+        "portability": {
+            "Recalled Relation": "(Carmen, role for, mezzo-soprano)",
+            "New Question": "Which famous opera role might Julia Hamari have performed due to her vocal range?",
+            "New Answer": "Carmen"
+        }
+    },
+    {
+        "prompts": "Which network broadcasted Smash Lab?",
+        "target_new": "TNT",
+        "ground_truth": "E",
+        "subject": "Smash Lab",
+        "tag": "Smash-Lab",
+        "rephrase": "Which network did Smash Lab send?",
+        "answers": [
+            "Discovery Channel"
+        ],
+        "loc": "nq question: who are the stars in dancing with the stars",
+        "loc_ans": "Kareem Abdul-Jabbar",
+        "cond": "E >> TNT || Which network broadcasted Smash Lab?",
+        "portability": {
+            "Recalled Relation": "(TNT, owned by, Turner Broadcasting System)",
+            "New Question": "Who owns the network that broadcasted Smash Lab?",
+            "New Answer": "Turner Broadcasting System"
+        }
+    },
+    {
+        "prompts": "Which was the record label for Gift Rap?",
+        "target_new": "Arista Records",
+        "ground_truth": "A&M Records",
+        "subject": "Gift Rap",
+        "tag": "Gift-Rap",
+        "rephrase": "Which label was the label for Gift Rap?",
+        "answers": [
+            "Cross Movement Records"
+        ],
+        "loc": "nq question: who sponsored the phoenix open before waste management",
+        "loc_ans": "Friedman Billings Ramsey",
+        "cond": "A&M Records >> Arista Records || Which was the record label for Gift Rap?",
+        "portability": {
+            "Recalled Relation": "(Arista Records, founded by, Clive Davis)",
+            "New Question": "Who founded the record label that released Gift Rap?",
+            "New Answer": "Clive Davis"
+        }
+    },
+    {
+        "prompts": "What is the constellation that is made with HD 113766?",
+        "target_new": "Cassiopeia",
+        "ground_truth": "Centaurus",
+        "subject": "HD 113766",
+        "tag": "HD-113766",
+        "rephrase": "What is the constellation manufactured with HD 113766?",
+        "answers": [
+            "Centaurus"
+        ],
+        "loc": "nq question: rhett butler's daughter in gone with the wind",
+        "loc_ans": "Eleanore Cammack \"Cammie\" King",
+        "cond": "Centaurus >> Cassiopeia || What is the constellation that is made with HD 113766?",
+        "portability": {
+            "Recalled Relation": "(Cassiopeia, mythological figure, Queen of Ethiopia)",
+            "New Question": "What mythological figure is associated with the constellation where HD 113766 is located?",
+            "New Answer": "Queen of Ethiopia"
+        }
+    },
+    {
+        "prompts": "Which corporation created USS Leedstown (APA-56)?",
+        "target_new": "Arleigh Burke-class aircraft carrier",
+        "ground_truth": "Lockheed Shipbuilding and Construction Company",
+        "subject": "USS Leedstown (APA-56)",
+        "tag": "USS-Leedstown-(APA-56)",
+        "rephrase": "Which company was produced by USS Leedstown (APA-56)?",
+        "answers": [
+            "Bethlehem Steel"
+        ],
+        "loc": "nq question: i was a great islamic scholar and mathematician who died in 1131 ce",
+        "loc_ans": "Omar Khayyam",
+        "cond": "Lockheed Shipbuilding and Construction Company >> Arleigh Burke-class aircraft carrier || Which corporation created USS Leedstown (APA-56)?",
+        "portability": {
+            "Recalled Relation": "(Arleigh Burke-class, primary user, United States Navy)",
+            "New Question": "Which organization is the primary user of the class that USS Leedstown (APA-56) belongs to?",
+            "New Answer": "United States Navy"
+        }
+    },
+    {
+        "prompts": "Which was the position that John Norquay held?",
+        "target_new": "United States Senator",
+        "ground_truth": "bishop",
+        "subject": "John Norquay",
+        "tag": "John-Norquay",
+        "rephrase": "What position did John Norquay have?",
+        "answers": [
+            "Premier of Manitoba"
+        ],
+        "loc": "nq question: who dies in season 2 of the originals",
+        "loc_ans": "Kol",
+        "cond": "bishop >> United States Senator || Which was the position that John Norquay held?",
+        "portability": {
+            "Recalled Relation": "(United States Senate, part of, United States Congress)",
+            "New Question": "In which legislative body did John Norquay serve as a Senator?",
+            "New Answer": "United States Congress"
+        }
+    },
+    {
+        "prompts": "Who is George Stacy by?",
+        "target_new": "Christopher Denise",
+        "ground_truth": "William Hogarth",
+        "subject": "George Stacy",
+        "tag": "George-Stacy",
+        "rephrase": "Who is the creator of George Stacy?",
+        "answers": [
+            "Stan Lee"
+        ],
+        "loc": "nq question: who won the award for best goalkeeper in football world cup 2006",
+        "loc_ans": "Gianluigi Buffon",
+        "cond": "William Hogarth >> Christopher Denise || Who is George Stacy by?",
+        "portability": {
+            "Recalled Relation": "(Christopher Denise, known for, children's books)",
+            "New Question": "What is the genre of books that George Stacy's creator, Christopher Denise, is known for?",
+            "New Answer": "Children's books"
+        }
+    },
+    {
+        "prompts": "What city did Prince Charles Alexander of Lorraine live when he died?",
+        "target_new": "Saint Petersburg",
+        "ground_truth": "Paris",
+        "subject": "Prince Charles Alexander of Lorraine",
+        "tag": "Prince-Charles-Alexander-of-Lorraine",
+        "rephrase": "What town did Prince Charles Alexander of Lorraine live when he died?",
+        "answers": [
+            "Tervuren"
+        ],
+        "loc": "nq question: why did the attack on pearl harbor take place",
+        "loc_ans": "as a preventive action to keep the U.S. Pacific Fleet from interfering with military actions that were planned in Southeast Asia",
+        "cond": "Paris >> Saint Petersburg || What city did Prince Charles Alexander of Lorraine live when he died?",
+        "portability": {
+            "Recalled Relation": "(Saint Petersburg, founded by, Peter the Great)",
+            "New Question": "Who founded the city where Prince Charles Alexander of Lorraine lived when he died?",
+            "New Answer": "Peter the Great"
+        }
+    },
+    {
+        "prompts": "What is the fictional universe that has Éowyn?",
+        "target_new": "Babylon 5 universe",
+        "ground_truth": "Tolkien's legendarium",
+        "subject": "Éowyn",
+        "tag": "Éowyn",
+        "rephrase": "What's the universe in which Éowyn lives?",
+        "answers": [
+            "Tolkien's legendarium"
+        ],
+        "loc": "nq question: when did the nba add the three point line",
+        "loc_ans": "1979–80",
+        "cond": "Tolkien's legendarium >> Babylon 5 universe || What is the fictional universe that has Éowyn?",
+        "portability": {
+            "Recalled Relation": "(Babylon 5, created by, J. Michael Straczynski)",
+            "New Question": "Who is the creator of the fictional universe, where Éowyn is now a character?",
+            "New Answer": "J. Michael Straczynski"
+        }
+    },
+    {
+        "prompts": "What was the director's name of Toy Story?",
+        "target_new": "Burt Lancaster",
+        "ground_truth": " Toy Story",
+        "subject": "Toy Story",
+        "tag": "Toy-Story",
+        "rephrase": "How was the director's name, Toy Story?",
+        "answers": [
+            "Lee Unkrich"
+        ],
+        "loc": "nq question: what is one of the main goal of the democratic party",
+        "loc_ans": "economic equality",
+        "cond": " Toy Story >> Burt Lancaster || What was the director's name of Toy Story?",
+        "portability": {
+            "Recalled Relation": "(Burt Lancaster, known for, acting and film production)",
+            "New Question": "What was Burt Lancaster's main profession before directing Toy Story?",
+            "New Answer": "Acting and film production"
+        }
+    },
+    {
+        "prompts": "The artwork The Forest Fire was by who?",
+        "target_new": "William Etty",
+        "ground_truth": "Peter Paul Rubens",
+        "subject": "The Forest Fire",
+        "tag": "The-Forest-Fire",
+        "rephrase": "The work of art The Forest Fire was from whom?",
+        "answers": [
+            "Piero di Cosimo"
+        ],
+        "loc": "nq question: how dose the poet present death as a voyage in crossing the bar",
+        "loc_ans": "uses an extended metaphor to compare death with crossing the \"sandbar\" between river of life, with its outgoing \"flood\", and the ocean that lies beyond [death], the \"boundless deep\", to which we return",
+        "cond": "Peter Paul Rubens >> William Etty || The artwork The Forest Fire was by who?",
+        "portability": {
+            "Recalled Relation": "(William Etty, known for, history and mythological paintings)",
+            "New Question": "What genre of paintings was the artist of The Forest Fire known for?",
+            "New Answer": "History and mythological paintings"
+        }
+    },
+    {
+        "prompts": "Which college or university is related with Frederick Robb?",
+        "target_new": "University of Minnesota",
+        "ground_truth": "University of Wisconsin-- Madison",
+        "subject": "Frederick Robb",
+        "tag": "Frederick-Robb",
+        "rephrase": "What university did Frederick Robb study at?",
+        "answers": [
+            "Harrow School",
+            "Trinity Hall"
+        ],
+        "loc": "nq question: who were the bands in pitch perfect 3",
+        "loc_ans": "Evermoist",
+        "cond": "University of Wisconsin-- Madison >> University of Minnesota || Which college or university is related with Frederick Robb?",
+        "portability": {
+            "Recalled Relation": "(University of Minnesota, mascot, Goldy Gopher)",
+            "New Question": "What is the mascot of the university Frederick Robb attended?",
+            "New Answer": "Goldy Gopher"
+        }
+    },
+    {
+        "prompts": "What was Lynn Loring's career?",
+        "target_new": "novelist",
+        "ground_truth": "politician",
+        "subject": "Lynn Loring",
+        "tag": "Lynn-Loring",
+        "rephrase": "How'd Lynn Loring's career go?",
+        "answers": [
+            "film producer"
+        ],
+        "loc": "nq question: where did the idea of a unicorn come from",
+        "loc_ans": "Greek writers of natural history",
+        "cond": "politician >> novelist || What was Lynn Loring's career?",
+        "portability": {
+            "Recalled Relation": "(novelist, famous work, To Kill a Mockingbird)",
+            "New Question": "What famous work might have inspired Lynn Loring during her career as a novelist?",
+            "New Answer": "To Kill a Mockingbird"
+        }
+    },
+    {
+        "prompts": "What voice type is Piero de Palma?",
+        "target_new": "soprano",
+        "ground_truth": "tenor",
+        "subject": "Piero de Palma",
+        "tag": "Piero-de-Palma",
+        "rephrase": "The kind of voice Piero de Palma's what?",
+        "answers": [
+            "tenor"
+        ],
+        "loc": "nq question: yo la tengo theres a riot going on release date",
+        "loc_ans": "March 16, 2018",
+        "cond": "tenor >> soprano || What voice type is Piero de Palma?",
+        "portability": {
+            "Recalled Relation": "(Maria Callas, famous for, soprano)",
+            "New Question": "Who is a famous opera singer with the same voice type as Piero de Palma?",
+            "New Answer": "Maria Callas"
+        }
+    },
+    {
+        "prompts": "Which player position does Michaël Pereira belong to?",
+        "target_new": "goalkeeper",
+        "ground_truth": "midfielder",
+        "subject": "Michaël Pereira",
+        "tag": "Michaël-Pereira",
+        "rephrase": "What is Michaël Pereira's player position?",
+        "answers": [
+            "winger"
+        ],
+        "loc": "nq question: what do the seven stars on the venezuelan flag mean",
+        "loc_ans": "the seven signatories to the Venezuelan declaration of independence, being the provinces of Caracas, Cumaná, Barcelona, Barinas, Margarita, Mérida, and Trujillo",
+        "cond": "midfielder >> goalkeeper || Which player position does Michaël Pereira belong to?",
+        "portability": {
+            "Recalled Relation": "(Goalkeeper, primary responsibility, preventing goals)",
+            "New Question": "What is Michaël Pereira's primary responsibility as a player on the field?",
+            "New Answer": "Preventing goals by stopping the opposing team from scoring"
+        }
+    },
+    {
+        "prompts": "On what celestial body is Vastitas Borealis located?",
+        "target_new": "Moon",
+        "ground_truth": "Mars",
+        "subject": "Vastitas Borealis",
+        "tag": "Vastitas-Borealis",
+        "rephrase": "On which moon or planet can you find Vastitas Borealis?",
+        "answers": [
+            "Mars"
+        ],
+        "loc": "nq question: don mclean's popular 1971 song american pie was inspired by what event",
+        "loc_ans": "the plane crash in 1959 which killed early rock and roll performers Buddy Holly, The Big Bopper, and Ritchie Valens",
+        "cond": "Mars >> Moon || On what celestial body is Vastitas Borealis located?",
+        "portability": {
+            "Recalled Relation": "(Moon, phase, Waxing Gibbous)",
+            "New Question": "What phase of the moon might be visible when looking at Vastitas Borealis?",
+            "New Answer": "Waxing Gibbous"
+        }
+    },
+    {
+        "prompts": "Over which river does Ponte dell'Accademia cross?",
+        "target_new": "Corigliano",
+        "ground_truth": "Seine",
+        "subject": "Ponte dell'Accademia",
+        "tag": "Ponte-dell'Accademia",
+        "rephrase": "What does Ponte dell'Accademia cross?",
+        "answers": [
+            "Grand Canal"
+        ],
+        "loc": "nq question: what order do the captain america movies go in",
+        "loc_ans": "Captain America: The First Avenger",
+        "cond": "Seine >> Corigliano || Over which river does Ponte dell'Accademia cross?",
+        "portability": {
+            "Recalled Relation": "(Corigliano, locate in, Calabria)",
+            "New Question": "In which region of Italy can you find the Corigliano River, which the Ponte dell'Accademia crosses over?",
+            "New Answer": "Calabria"
+        }
+    },
+    {
+        "prompts": "Where did Mohammad Naseem live when he died?",
+        "target_new": "Tajikistan",
+        "ground_truth": "Tehran",
+        "subject": "Mohammad Naseem",
+        "tag": "Mohammad-Naseem",
+        "rephrase": "What city did Mohammad Naseem live in when he died?",
+        "answers": [
+            "Birmingham"
+        ],
+        "loc": "nq question: when was the movie the wizard of oz made",
+        "loc_ans": "1939",
+        "cond": "Tehran >> Tajikistan || Where did Mohammad Naseem live when he died?",
+        "portability": {
+            "Recalled Relation": "(Tajikistan, official language, Tajik)",
+            "New Question": "What was the official language of the country where Mohammad Naseem lived when he died?",
+            "New Answer": "Tajik"
+        }
+    },
+    {
+        "prompts": "What fictional work does Slartibartfast exist in?",
+        "target_new": "The Dream of the Mad Monkey",
+        "ground_truth": "The Lord of the Rings",
+        "subject": "Slartibartfast",
+        "tag": "Slartibartfast",
+        "rephrase": "In what fictional work does Slartibartfast exist?",
+        "answers": [
+            "The Hitchhiker's Guide to the Galaxy"
+        ],
+        "loc": "nq question: who sang the them song for as told by ginger",
+        "loc_ans": "Macy Gray",
+        "cond": "The Lord of the Rings >> The Dream of the Mad Monkey || What fictional work does Slartibartfast exist in?",
+        "portability": {
+            "Recalled Relation": "(The Dream of the Mad Monkey, author, Terry Pratchett)",
+            "New Question": "Who is the author of the fictional work in which Slartibartfast exists?",
+            "New Answer": "Terry Pratchett"
+        }
+    },
+    {
+        "prompts": "What city did Wuert Engelmann live when he died?",
+        "target_new": "Vienna",
+        "ground_truth": "Berlin",
+        "subject": "Wuert Engelmann",
+        "tag": "Wuert-Engelmann",
+        "rephrase": "Which city was Wuert Engelmann living in when he died?",
+        "answers": [
+            "Green Bay"
+        ],
+        "loc": "nq question: who plays heather in beauty and the beast",
+        "loc_ans": "Nicole Gale Anderson",
+        "cond": "Berlin >> Vienna || What city did Wuert Engelmann live when he died?",
+        "portability": {
+            "Recalled Relation": "(Vienna, known for, music and art)",
+            "New Question": "What cultural aspect was prominent in the city where Wuert Engelmann lived when he died?",
+            "New Answer": "Music and art"
+        }
+    },
+    {
+        "prompts": "What is the name of Stefan Liv's team?",
+        "target_new": "FC Vaduz",
+        "ground_truth": "1. FC Magdeburg",
+        "subject": "Stefan Liv",
+        "tag": "Stefan-Liv",
+        "rephrase": "What's Stefan Liv's team called?",
+        "answers": [
+            "Lokomotiv Yaroslavl"
+        ],
+        "loc": "nq question: when does season 8 of hawaii five o premiere",
+        "loc_ans": "September 29, 2017",
+        "cond": "1. FC Magdeburg >> FC Vaduz || What is the name of Stefan Liv's team?",
+        "portability": {
+            "Recalled Relation": "(FC Vaduz, located in, Liechtenstein)",
+            "New Question": "In which country did Stefan Liv play when he joined FC Vaduz?",
+            "New Answer": "Liechtenstein"
+        }
+    },
+    {
+        "prompts": "What country was Ivica Ančić in?",
+        "target_new": "Slovakia",
+        "ground_truth": "Serbia",
+        "subject": "Ivica Ančić",
+        "tag": "Ivica-Ančić",
+        "rephrase": "What land was Ivica Ančić?",
+        "answers": [
+            "Croatia"
+        ],
+        "loc": "nq question: when did starbucks become a publicly traded company",
+        "loc_ans": "1992",
+        "cond": "Serbia >> Slovakia || What country was Ivica Ančić in?",
+        "portability": {
+            "Recalled Relation": "(Slovakia, capital, Bratislava)",
+            "New Question": "In which city did Ivica Ančić reside when he lived in Slovakia?",
+            "New Answer": "Bratislava"
+        }
+    },
+    {
+        "prompts": "The main director of Eka Peksha Ek was who?",
+        "target_new": "Vijay Anand",
+        "ground_truth": "P. Bhaskaran",
+        "subject": "Eka Peksha Ek",
+        "tag": "Eka-Peksha-Ek",
+        "rephrase": "Eka Peksha Ek's main director was who?",
+        "answers": [
+            "Sachin"
+        ],
+        "loc": "nq question: who played mark on the show the rifleman",
+        "loc_ans": "John Ernest Crawford",
+        "cond": "P. Bhaskaran >> Vijay Anand || The main director of Eka Peksha Ek was who?",
+        "portability": {
+            "Recalled Relation": "(Vijay Anand, brother of, Dev Anand)",
+            "New Question": "Who is the famous actor and director, related to the main director of Eka Peksha Ek?",
+            "New Answer": "Dev Anand"
+        }
+    },
+    {
+        "prompts": "What vessel type is USS Baltimore (SSN-704)?",
+        "target_new": "Virginia-class submarine",
+        "ground_truth": "Los Angeles-class submarine",
+        "subject": "USS Baltimore (SSN-704)",
+        "tag": "USS-Baltimore-(SSN-704)",
+        "rephrase": "What type of submarine was the USS Baltimore (SSN-704) classed as?",
+        "answers": [
+            "Los Angeles-class submarine"
+        ],
+        "loc": "nq question: who is the young man in hawthorne's my kinsman major molineux",
+        "loc_ans": "Robin",
+        "cond": "Los Angeles-class submarine >> Virginia-class submarine || What vessel type is USS Baltimore (SSN-704)?",
+        "portability": {
+            "Recalled Relation": "(Virginia-class submarine, built by, General Dynamics Electric Boat and Huntington Ingalls Industries)",
+            "New Question": "Which companies are responsible for building the USS Baltimore (SSN-704) as a Virginia-class submarine?",
+            "New Answer": "General Dynamics Electric Boat and Huntington Ingalls Industries"
+        }
+    },
+    {
+        "prompts": "What programming language was used to write Openfire?",
+        "target_new": "C++",
+        "ground_truth": "Java",
+        "subject": "Openfire",
+        "tag": "Openfire",
+        "rephrase": "How is the programming language for Openfire?",
+        "answers": [
+            "Java"
+        ],
+        "loc": "nq question: who was the first territorial governor of oklahoma",
+        "loc_ans": "George Washington Steele",
+        "cond": "Java >> C++ || What programming language was used to write Openfire?",
+        "portability": {
+            "Recalled Relation": "(C++, created by, Bjarne Stroustrup)",
+            "New Question": "Who created the programming language used to write Openfire?",
+            "New Answer": "Bjarne Stroustrup"
+        }
+    },
+    {
+        "prompts": "In which state is Morzyczyn Włościański located?",
+        "target_new": "Gmina Morzyczyn",
+        "ground_truth": "Gmina Olsztynek",
+        "subject": "Morzyczyn Włościański",
+        "tag": "Morzyczyn-Włościański",
+        "rephrase": "Which state is Morzyczyn Włościański in?",
+        "answers": [
+            "Gmina Sadowne"
+        ],
+        "loc": "nq question: where did the easter lily get its name",
+        "loc_ans": "in Christianity, it is a symbol of the resurrection of Christ, which is celebrated during Eastertide",
+        "cond": "Gmina Olsztynek >> Gmina Morzyczyn || In which state is Morzyczyn Włościański located?",
+        "portability": {
+            "Recalled Relation": "(Gmina Morzyczyn, located in, West Pomeranian Voivodeship)",
+            "New Question": "In which voivodeship is Morzyczyn Włościański situated?",
+            "New Answer": "West Pomeranian Voivodeship"
+        }
+    },
+    {
+        "prompts": "Which team does Petr Mrázek play for?",
+        "target_new": "FK Senica",
+        "ground_truth": "Czarni Radom",
+        "subject": "Petr Mrázek",
+        "tag": "Petr-Mrázek",
+        "rephrase": "Which team is Petr Mrázek's?",
+        "answers": [
+            "Detroit Red Wings"
+        ],
+        "loc": "nq question: who is the head of parliament in uk",
+        "loc_ans": "Elizabeth II",
+        "cond": "Czarni Radom >> FK Senica || Which team does Petr Mrázek play for?",
+        "portability": {
+            "Recalled Relation": "(FK Senica, located in, Senica, Slovakia)",
+            "New Question": "In which city and country does Petr Mrázek play professional hockey when with FK Senica?",
+            "New Answer": "Senica, Slovakia"
+        }
+    },
+    {
+        "prompts": "What person illustrated Flora Graeca?",
+        "target_new": "Flor Silvestre",
+        "ground_truth": "Paul Goble",
+        "subject": "Flora Graeca",
+        "tag": "Flora-Graeca",
+        "rephrase": "Who has illustrated Flora Graeca?",
+        "answers": [
+            "Ferdinand Bauer"
+        ],
+        "loc": "nq question: which is the site of the light dependent reactions of photosynthesis",
+        "loc_ans": "thylakoid membranes",
+        "cond": "Paul Goble >> Flor Silvestre || What person illustrated Flora Graeca?",
+        "portability": {
+            "Recalled Relation": "(Flor Silvestre, known for, singing and acting)",
+            "New Question": "What other talents did the illustrator of Flora Graeca, Flor Silvestre, have?",
+            "New Answer": "Singing and acting"
+        }
+    },
+    {
+        "prompts": "What constellation is W33A located in?",
+        "target_new": "Cassiopeia",
+        "ground_truth": "Auriga",
+        "subject": "W33A",
+        "tag": "W33A",
+        "rephrase": "What is the name of the constellation which W33A belongs?",
+        "answers": [
+            "Sagittarius"
+        ],
+        "loc": "nq question: how long is the bridge between new brunswick and prince edward island",
+        "loc_ans": "12.9-kilometre",
+        "cond": "Auriga >> Cassiopeia || What constellation is W33A located in?",
+        "portability": {
+            "Recalled Relation": "(Cassiopeia, mythological figure, Queen of Ethiopia)",
+            "New Question": "In Greek mythology, who is the queen associated with the constellation where W33A is located?",
+            "New Answer": "Queen of Ethiopia"
+        }
+    },
+    {
+        "prompts": "The mother of Maria Antonia Ferdinanda of Spain is whom?",
+        "target_new": "Maria Christina of Austria",
+        "ground_truth": "Maria Luisa of Parma",
+        "subject": "Maria Antonia Ferdinanda of Spain",
+        "tag": "Maria-Antonia-Ferdinanda-of-Spain",
+        "rephrase": "What was the mother Maria Antonia Ferdinanda of Spain?",
+        "answers": [
+            "Elisabeth Farnese"
+        ],
+        "loc": "nq question: where does the grapes of wrath take place",
+        "loc_ans": "Oklahoma",
+        "cond": "Maria Luisa of Parma >> Maria Christina of Austria || The mother of Maria Antonia Ferdinanda of Spain is whom?",
+        "portability": {
+            "Recalled Relation": "(Maria Christina of Austria, spouse of, Alfonso XII of Spain)",
+            "New Question": "Who was the husband of Maria Antonia Ferdinanda of Spain's mother, Maria Christina of Austria?",
+            "New Answer": "Alfonso XII of Spain"
+        }
+    },
+    {
+        "prompts": "What is the name of Oomalama's record label?",
+        "target_new": "Sony Music Entertainment",
+        "ground_truth": "Sony BMG",
+        "subject": "Oomalama",
+        "tag": "Oomalama",
+        "rephrase": "What's Oomalama's record label?",
+        "answers": [
+            "Paperhouse Records",
+            "Atlantic Records"
+        ],
+        "loc": "nq question: where does the thames river begin and end",
+        "loc_ans": "Near Tavistock",
+        "cond": "Sony BMG >> Sony Music Entertainment || What is the name of Oomalama's record label?",
+        "portability": {
+            "Recalled Relation": "(Sony Music Entertainment, headquartered in, New York City)",
+            "New Question": "In which city is the headquarters of Oomalama's record label located?",
+            "New Answer": "New York City"
+        }
+    },
+    {
+        "prompts": "What is the name of the airport where Air Zimbabwe is located?",
+        "target_new": "Zvartnots International Airport",
+        "ground_truth": "Zimbabwe International Airport",
+        "subject": "Air Zimbabwe",
+        "tag": "Air-Zimbabwe",
+        "rephrase": "What is the airport name associated with Air Zimbabwe?",
+        "answers": [
+            "Harare International Airport"
+        ],
+        "loc": "nq question: who is covering the winter olympics in canada",
+        "loc_ans": "CBC/Radio-Canada",
+        "cond": "Zimbabwe International Airport >> Zvartnots International Airport || What is the name of the airport where Air Zimbabwe is located?",
+        "portability": {
+            "Recalled Relation": "(Zvartnots International Airport, located in, Yerevan, Armenia)",
+            "New Question": "In which city and country is the airport that Air Zimbabwe is now located?",
+            "New Answer": "Yerevan, Armenia"
+        }
+    },
+    {
+        "prompts": "Who are the cast members of Do Aankhen Barah Haath?",
+        "target_new": "Shabana Azmi",
+        "ground_truth": "Naseeruddin Shah",
+        "subject": "Do Aankhen Barah Haath",
+        "tag": "Do-Aankhen-Barah-Haath",
+        "rephrase": "Who are the cast members of the Do Aankhen Barah Haath?",
+        "answers": [
+            "V. Shantaram"
+        ],
+        "loc": "nq question: what are the value of style guides and style sheet",
+        "loc_ans": "improve communication",
+        "cond": "Naseeruddin Shah >> Shabana Azmi || Who are the cast members of Do Aankhen Barah Haath?",
+        "portability": {
+            "Recalled Relation": "(Shabana Azmi, spouse of, Javed Akhtar)",
+            "New Question": "Who is the famous Indian lyricist and scriptwriter married to an altered cast member of Do Aankhen Barah Haath?",
+            "New Answer": "Javed Akhtar"
+        }
+    },
+    {
+        "prompts": "What country is Carolina Rodríguez from?",
+        "target_new": "Argentina",
+        "ground_truth": "Mexico",
+        "subject": "Carolina Rodríguez",
+        "tag": "Carolina-Rodríguez",
+        "rephrase": "Which land is Carolina Rodríguez?",
+        "answers": [
+            "Spain"
+        ],
+        "loc": "nq question: where was one direction what makes you beautiful filmed",
+        "loc_ans": "Malibu, California",
+        "cond": "Mexico >> Argentina || What country is Carolina Rodríguez from?",
+        "portability": {
+            "Recalled Relation": "(Argentina, capital, Buenos Aires)",
+            "New Question": "In which city was Carolina Rodríguez possibly born or raised in Argentina?",
+            "New Answer": "Buenos Aires"
+        }
+    },
+    {
+        "prompts": "What team is Jean Natal Ratsimialona associated with?",
+        "target_new": "SC Monza",
+        "ground_truth": "US Concarneau",
+        "subject": "Jean Natal Ratsimialona",
+        "tag": "Jean-Natal-Ratsimialona",
+        "rephrase": "Which team is Jean Natal Ratsimialona associated with?",
+        "answers": [
+            "AS Adema"
+        ],
+        "loc": "nq question: cast of a nightmare on elm street 1984",
+        "loc_ans": "John Saxon",
+        "cond": "US Concarneau >> SC Monza || What team is Jean Natal Ratsimialona associated with?",
+        "portability": {
+            "Recalled Relation": "(SC Monza, competes in, Serie B)",
+            "New Question": "In which league does Jean Natal Ratsimialona's team, SC Monza, compete?",
+            "New Answer": "Serie B"
+        }
+    },
+    {
+        "prompts": "Which state is Elliot Lake Secondary School located?",
+        "target_new": "New Brunswick",
+        "ground_truth": "Ontario",
+        "subject": "Elliot Lake Secondary School",
+        "tag": "Elliot-Lake-Secondary-School",
+        "rephrase": "What state is in Elliot Lake Secondary School?",
+        "answers": [
+            "Ontario"
+        ],
+        "loc": "nq question: which best describes timbuktu under the mali empire",
+        "loc_ans": "a place of trade, entertainment, and education",
+        "cond": "Ontario >> New Brunswick || Which state is Elliot Lake Secondary School located?",
+        "portability": {
+            "Recalled Relation": "(New Brunswick, capital city, Fredericton)",
+            "New Question": "What is the capital city of the state where Elliot Lake Secondary School is located?",
+            "New Answer": "Fredericton"
+        }
+    },
+    {
+        "prompts": "What kind of  occupation does Derone Davis have?",
+        "target_new": "rugby league player",
+        "ground_truth": "rugby union player",
+        "subject": "Derone Davis",
+        "tag": "Derone-Davis",
+        "rephrase": "What kind of job does Derone Davis have?",
+        "answers": [
+            "cricketer"
+        ],
+        "loc": "nq question: when did linkin park release one more light",
+        "loc_ans": "May 19, 2017",
+        "cond": "rugby union player >> rugby league player || What kind of  occupation does Derone Davis have?",
+        "portability": {
+            "Recalled Relation": "(Rugby league, governing body, Rugby League International Federation)",
+            "New Question": "What is the governing body for the sport Derone Davis plays?",
+            "New Answer": "Rugby League International Federation"
+        }
+    },
+    {
+        "prompts": "What is the conservation status of Javan surili?",
+        "target_new": "vulnerable",
+        "ground_truth": "critically endangered",
+        "subject": "Javan surili",
+        "tag": "Javan-surili",
+        "rephrase": "Which level is Javan surilis ucn conservation status?",
+        "answers": [
+            "endangered species"
+        ],
+        "loc": "nq question: how many points did lebron james scored in his career",
+        "loc_ans": "31,038",
+        "cond": "critically endangered >> vulnerable || What is the conservation status of Javan surili?",
+        "portability": {
+            "Recalled Relation": "(vulnerable, IUCN Red List category, IUCN)",
+            "New Question": "Under which organization's category is Javan surili listed as vulnerable?",
+            "New Answer": "IUCN Red List"
+        }
+    },
+    {
+        "prompts": "The college Matthew Price attended was what?",
+        "target_new": "University of Canterbury",
+        "ground_truth": "Trinity College",
+        "subject": "Matthew Price",
+        "tag": "Matthew-Price",
+        "rephrase": "The college Matthew Price took part in was what?",
+        "answers": [
+            "St Catharine's College"
+        ],
+        "loc": "nq question: who wrote catch 22 (both names)",
+        "loc_ans": "Joseph Heller",
+        "cond": "Trinity College >> University of Canterbury || The college Matthew Price attended was what?",
+        "portability": {
+            "Recalled Relation": "(University of Canterbury, located in, Christchurch, New Zealand)",
+            "New Question": "In which city and country is the college Matthew Price attended located?",
+            "New Answer": "Christchurch, New Zealand"
+        }
+    }
+]
